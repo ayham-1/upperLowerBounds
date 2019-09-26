@@ -37,3 +37,15 @@
     Diameter: d=2r
     Area: A=PIr^2
     Circumference: C=2PIr=PId
+
+## Upper and Lower bounds rules.
+    UB=UB+UB
+    UB=UB*UB
+    LB=LB+LB
+    LB=LB*LB
+
+    UB=UB/LB
+    UB=UB-LB
+    LB=LB/UB
+    LB=LB-UB
+

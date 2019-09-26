@@ -23,12 +23,24 @@ if (CMAKE_BUILD_TYPE STREQUAL "Release")
     add_definitions(-D__RELEASE__)
 endif (CMAKE_BUILD_TYPE STREQUAL "Release")
 
-# skidjular
-project("upperlowerbounds")
+# upperlowerBounds
+project("upperlowerBounds")
 
-file (GLOB_RECURSE uplowbounds_hdrs "src/*.h")
+file (GLOB_RECURSE uplowbounds_hdrs "src/*.h src/*.hpp")
 file (GLOB_RECURSE uplowbounds_srcs "src/*.cpp")
 
 include_directories("src/")
 
 add_executable(uplowbounds ${uplowbounds_hdrs} ${uplowbounds_srcs})
+
+# Test Cases
+
+# Circle Test.
+add_executable(
+    circletest 
+    src/vendor/catch.hpp
+    src/methods/circle/circle.h
+    ../src/methods/circle/area.cpp
+    ../src/methods/circle/perimeter.cpp
+    tests/CircleTest.cpp
+)
