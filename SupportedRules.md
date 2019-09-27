@@ -26,12 +26,6 @@
     Area: A=bh
     Perimeter: P=2a+2b
 
-### Trapezoid
-    a,b=bases, h=height
-    c,d=sides
-    Area: A=(1/2)(a+b)h
-    Perimeter: P=a+b+c+d
-
 ### Circle
     r=radius, d=diameter
     Diameter: d=2r
