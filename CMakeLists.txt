@@ -56,3 +56,13 @@ add_executable(
     tests/EquTriangleTests.cpp
 )
 
+# Parellelogram Test.
+add_executable(
+    parallelTest 
+    src/vendor/catch.hpp
+    src/methods/parallelogram/parallelogram.h
+    ../src/methods/parallelogram/area.cpp
+    ../src/methods/parallelogram/perimeter.cpp
+    tests/ParallelogramTest.cpp
+)
+
