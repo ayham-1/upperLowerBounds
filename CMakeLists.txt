@@ -44,3 +44,15 @@ add_executable(
     ../src/methods/circle/perimeter.cpp
     tests/CircleTest.cpp
 )
+
+# Equ-Triangle Test.
+add_executable(
+    equTriantest 
+    src/vendor/catch.hpp
+    src/methods/equ_triangle/equ_triangle.h
+    ../src/methods/equ_triangle/area.cpp
+    ../src/methods/equ_triangle/perimeter.cpp
+    ../src/methods/equ_triangle/height.cpp
+    tests/EquTriangleTests.cpp
+)
+
