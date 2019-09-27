@@ -76,3 +76,13 @@ add_executable(
     tests/RectangleTest.cpp
 )
 
+# Square Test.
+add_executable(
+    squareTest 
+    src/vendor/catch.hpp
+    src/methods/square/square.h
+    ../src/methods/square/area.cpp
+    ../src/methods/square/perimeter.cpp
+    tests/SquareTests.cpp
+)
+
