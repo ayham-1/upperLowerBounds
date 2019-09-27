@@ -66,3 +66,13 @@ add_executable(
     tests/ParallelogramTest.cpp
 )
 
+# Rectangle Test.
+add_executable(
+    rectangleTest 
+    src/vendor/catch.hpp
+    src/methods/rectangle/rectangle.h
+    ../src/methods/rectangle/area.cpp
+    ../src/methods/rectangle/perimeter.cpp
+    tests/RectangleTest.cpp
+)
+
