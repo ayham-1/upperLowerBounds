@@ -9,7 +9,7 @@ build:
   before_script:
      - apt update && apt -y install make autoconf cmake
      # Qt5 download.
-     - apt -y qtcreator
+     - apt -y install qtcreator
   script:
     - ./build.sh
   artifacts:
