@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>508</width>
+    <height>406</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Upper-Lower Bounds</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>60</y>
+      <width>111</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>28</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Upper</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>100</y>
+      <width>111</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>28</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Lower</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>140</y>
+      <width>131</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>28</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Bounds</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="formulaBox">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>220</y>
+      <width>151</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Square Formula: Area</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Square Formula: Perimeter</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Rectangle Formula: Area</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Rectangle Formula: Perimeter</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Triangle Formula: Area</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Triangle Formula: Perimeter</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Equilateral Triangle Formula: Area</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Equilateral Triangle Formula: Perimeter</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Parallelogram Formula: Area</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Parallelogram Formula: Perimeter</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Circle Formula: Area</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Circle Formula: Perimeter</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+   </widget>
+   <widget class="QPushButton" name="selectBtn">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>250</y>
+      <width>80</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Select</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>508</width>
+     <height>19</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

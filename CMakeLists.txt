@@ -1,8 +1,10 @@
 cmake_minimum_required(VERSION 3.5)
-
+project("upperlowerBounds")
+ 
 set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/lib)
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/lib)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/bin)
+set(CMAKE_INCLUDE_CURRENT_DIR ON)
 
 message("${CMAKE_CXX_COMPILER_ID}")
 
@@ -24,14 +26,12 @@ if (CMAKE_BUILD_TYPE STREQUAL "Release")
 endif (CMAKE_BUILD_TYPE STREQUAL "Release")
 
 # upperlowerBounds
-project("upperlowerBounds")
-
-file (GLOB_RECURSE uplowbounds_hdrs "src/*.h src/*.hpp")
-file (GLOB_RECURSE uplowbounds_srcs "src/*.cpp")
+file (GLOB_RECURSE hdrs "src/methods/*.h")
+file (GLOB_RECURSE srcs "src/methods/*.cpp")
 
 include_directories("src/")
 
-add_executable(uplowbounds ${uplowbounds_hdrs} ${uplowbounds_srcs})
+add_executable(uplowbounds ${hdrs} ${srcs})
 
 # Test Cases
 
