@@ -1,5 +1,5 @@
-#ifndef MAINWINDOW_H
-#define MAINWINDOW_H
+#ifndef BOUNDS_MAINWINDOW_H
+#define BOUNDS_MAINWINDOW_H
 
 #include <QMainWindow>
 #include <QPushButton>
@@ -19,10 +19,6 @@ class MainWin : public QMainWindow, private Ui::MainWindow {
 
     private slots:
         void on_selectBtn_clicked();
-
-    private:
-        QWidget *formWidget = nullptr;
-        QPushButton* ui_selectBtn = nullptr;
 };
 
 #endif

@@ -11,7 +11,11 @@ build:
      # Qt5 download.
      - apt -y install qtcreator
   script:
+    # Build methods, and tests.
     - ./build.sh
+    # Build gui app.
+    - qmake -o Makefile bounds.pro
+    - make -j9
   artifacts:
     paths:
       - bin/

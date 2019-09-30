@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>353</width>
-    <height>258</height>
+    <width>309</width>
+    <height>287</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,13 +17,13 @@
    <property name="geometry">
     <rect>
      <x>0</x>
-     <y>0</y>
-     <width>346</width>
-     <height>252</height>
+     <y>2</y>
+     <width>308</width>
+     <height>280</height>
     </rect>
    </property>
-   <layout class="QVBoxLayout" name="verticalLayout">
-    <item>
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="0" column="0">
      <layout class="QGridLayout" name="gridLayout">
       <item row="0" column="0">
        <widget class="QLabel" name="label">
@@ -45,12 +45,15 @@
       <item row="0" column="3">
        <widget class="QLineEdit" name="lengthText"/>
       </item>
-      <item row="1" column="0" colspan="2">
-       <widget class="QPushButton" name="calculateBtn">
+      <item row="1" column="0">
+       <widget class="QLabel" name="label_4">
         <property name="text">
-         <string>Calculate</string>
+         <string>ME:</string>
         </property>
        </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QLineEdit" name="maxErrorText"/>
       </item>
       <item row="1" column="2">
        <widget class="QLabel" name="label_3">
@@ -62,9 +65,16 @@
       <item row="1" column="3">
        <widget class="QLineEdit" name="widthText"/>
       </item>
+      <item row="2" column="0" colspan="4">
+       <widget class="QPushButton" name="calculateBtn">
+        <property name="text">
+         <string>Calculate</string>
+        </property>
+       </widget>
+      </item>
      </layout>
     </item>
-    <item>
+    <item row="1" column="0">
      <widget class="QPlainTextEdit" name="plainTextEdit"/>
     </item>
    </layout>
