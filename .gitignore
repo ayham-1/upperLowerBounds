@@ -4,5 +4,5 @@ build/
 *.swp
 *.lib*
 *.o
-*.user
+bounds.pro.user
 
