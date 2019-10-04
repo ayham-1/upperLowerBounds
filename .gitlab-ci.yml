@@ -10,6 +10,7 @@ build:
      - apt update && apt -y install make autoconf cmake
      # Qt5 download.
      - apt -y install qtcreator
+     - apt -y install qt5-default
   script:
     # Build methods, and tests.
     - ./build.sh
