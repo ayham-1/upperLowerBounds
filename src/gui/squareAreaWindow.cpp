@@ -17,7 +17,7 @@ void SquareAreaWin::on_calculateBtn_clicked() {
         res = sqr_calc_area(me, side, area);
         plainTextEdit->setPlainText(QString::fromStdString(std::string("UB: ") + std::to_string(res.s_upper) + std::string("\n LB: ") + std::to_string(res.s_lower)));
     } catch (std::invalid_argument error) {
-
+        plainTextEdit->setPlainText(QString::fromStdString(error.what()));
+        return;
     }
-
 }

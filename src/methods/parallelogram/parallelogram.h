@@ -1,5 +1,5 @@
-#ifndef PARALLELOGRAM_H
-#define PARALLELOGRAM_H
+#ifndef BOUNDS_PARALLELOGRAM_H
+#define BOUNDS_PARALLELOGRAM_H
 
 #include <iostream>
 #include <math.h>

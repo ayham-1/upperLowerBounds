@@ -6,7 +6,7 @@
 #include <QMessageBox>
 
 #include "ui_square_area.h"
-#include "methods/square/square.h"
+#include <square/square.h>
 
 namespace Ui {
     class squareArea;
