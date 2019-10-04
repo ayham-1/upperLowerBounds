@@ -1,5 +1,8 @@
 bin/
 build/
+.qmake/
 *.swp
 *.lib*
 *.o
+*.user
+
