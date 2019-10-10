@@ -4,6 +4,7 @@
 #include <QMainWindow>
 #include <QPushButton>
 #include <QMessageBox>
+#include <QDoubleValidator>
 
 #include "ui_square_area.h"
 #include <square/square.h>

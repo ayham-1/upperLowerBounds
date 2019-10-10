@@ -5,8 +5,8 @@
 #include <QPushButton>
 #include <QMessageBox>
 
-//#include "../ui.h"
 #include "ui_mainWindow.h"
+#include "squareAreaWindow.h"
 
 namespace Ui {
     class MainWindow;

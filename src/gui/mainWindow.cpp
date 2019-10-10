@@ -6,5 +6,7 @@ MainWin::MainWin(QWidget* parent)
 }
 
 void MainWin::on_selectBtn_clicked() {
-    QMessageBox::information(this, tr("Hello This works."), tr("Probably works."));
+    SquareAreaWin* win = new SquareAreaWin();
+    win->show();
+    hide();
 }

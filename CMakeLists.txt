@@ -16,6 +16,7 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 # Set c++ compiler options
 set(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -g -Wall -Werror")
 set(CMAKE_CXX_FLAGS_RELEASE "${CMAKE_CXX_FLAGS_RELEASE} -O3 -Wall -Werror")
+include_directories("src/")
 
 # Set build type definitions.
 if (CMAKE_BUILD_TYPE STREQUAL "Debug")
@@ -28,10 +29,6 @@ endif (CMAKE_BUILD_TYPE STREQUAL "Release")
 # upperlowerBounds
 file (GLOB_RECURSE hdrs "src/methods/*.h")
 file (GLOB_RECURSE srcs "src/methods/*.cpp")
-
-include_directories("src/")
-
-add_executable(uplowbounds ${hdrs} ${srcs})
 
 # Test Cases
 
