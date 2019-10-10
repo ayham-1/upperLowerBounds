@@ -13,7 +13,7 @@ auto etrian_calc_area(float me, float s, float a)->uplowBounds {
         answer.s_upper = sqrt((4/sqrt(3)*(a+me)));
         return answer;
     }
-    else if (a == 0.0f && s == 0.0f)
+    else if (a != 0.0f && s != 0.0f)
         throw std::invalid_argument("Everythign is given, you should probably reconsider your life descisions.");
     else if (a == 0.0f && s == 0.0f)
         throw std::invalid_argument("Nothing computes to nothing.");

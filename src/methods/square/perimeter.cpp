@@ -4,13 +4,13 @@ auto sqr_calc_perimeter(float me, float s, float p)->uplowBounds {
     auto answer = uplowBounds();
 
     if (p == 0.0f && s != 0.0f) {
-        answer.s_lower = 4*(s-me);
-        answer.s_upper = 4*(s+me);
+        answer.s_lower = 4.0f*(s-me);
+        answer.s_upper = 4.0f*(s+me);
         return answer;
     }
     else if (p != 0.0f && s == 0.0f) {
-        answer.s_lower = (s-me)/4;
-        answer.s_upper = (s+me)/4;
+        answer.s_lower = (p-me)/4.0f;
+        answer.s_upper = (p+me)/4.0f;
         return answer;
     }
     else if (p != 0.0f && s != 0.0f)

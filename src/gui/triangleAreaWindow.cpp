@@ -25,7 +25,7 @@ void TrianAreaWin::on_calculateBtn_clicked() {
     uplowBounds res;
 
     try {
-        res =
+        res = trian_calc_area(me, area, base, height);
         plainTextEdit->setPlainText(QString::fromStdString(std::string("UB: ") + std::to_string(res.s_upper) + std::string("\nLB: ") + std::to_string(res.s_lower)));
     } catch (std::invalid_argument& error) {
         plainTextEdit->setPlainText(QString::fromStdString(error.what()));

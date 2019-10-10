@@ -36,7 +36,7 @@
        </widget>
       </item>
       <item row="0" column="1">
-       <widget class="QLineEdit" name="lineEdit">
+       <widget class="QLineEdit" name="perimeterText">
         <property name="text">
          <string>0.0</string>
         </property>
@@ -50,7 +50,7 @@
        </widget>
       </item>
       <item row="0" column="3">
-       <widget class="QLineEdit" name="lineEdit_2">
+       <widget class="QLineEdit" name="radiusText">
         <property name="text">
          <string>0.0</string>
         </property>
@@ -64,7 +64,7 @@
        </widget>
       </item>
       <item row="1" column="1">
-       <widget class="QLineEdit" name="lineEdit_4">
+       <widget class="QLineEdit" name="maxErrorText">
         <property name="text">
          <string>0.0</string>
         </property>
@@ -78,14 +78,14 @@
        </widget>
       </item>
       <item row="1" column="3">
-       <widget class="QLineEdit" name="lineEdit_3">
+       <widget class="QLineEdit" name="diameterText">
         <property name="text">
          <string>0.0</string>
         </property>
        </widget>
       </item>
       <item row="2" column="0" colspan="4">
-       <widget class="QPushButton" name="pushButton">
+       <widget class="QPushButton" name="calculateBtn">
         <property name="text">
          <string>Calculate</string>
         </property>

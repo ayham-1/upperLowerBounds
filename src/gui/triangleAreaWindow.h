@@ -7,7 +7,7 @@
 #include <QDoubleValidator>
 
 #include "ui_triangle_area.h"
-#include <triangle
+#include <triangle/triangle.h>
 
 namespace Ui {
     class triangleArea;

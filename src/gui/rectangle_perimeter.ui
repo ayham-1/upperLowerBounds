@@ -13,7 +13,7 @@
   <property name="windowTitle">
    <string>Rectangle Formula: Perimeter</string>
   </property>
-  <widget class="QWidget" name="">
+  <widget class="QWidget" name="layoutWidget">
    <property name="geometry">
     <rect>
      <x>-2</x>
@@ -33,7 +33,11 @@
        </widget>
       </item>
       <item row="0" column="1">
-       <widget class="QLineEdit" name="perimeterText"/>
+       <widget class="QLineEdit" name="perimeterText">
+        <property name="text">
+         <string>0.0</string>
+        </property>
+       </widget>
       </item>
       <item row="0" column="2">
        <widget class="QLabel" name="label_2">
@@ -43,7 +47,11 @@
        </widget>
       </item>
       <item row="0" column="3">
-       <widget class="QLineEdit" name="lengthText"/>
+       <widget class="QLineEdit" name="lengthText">
+        <property name="text">
+         <string>0.0</string>
+        </property>
+       </widget>
       </item>
       <item row="1" column="0">
        <widget class="QLabel" name="label_4">
@@ -53,7 +61,11 @@
        </widget>
       </item>
       <item row="1" column="1">
-       <widget class="QLineEdit" name="perimeterText_2"/>
+       <widget class="QLineEdit" name="maxErrorText">
+        <property name="text">
+         <string>0.0</string>
+        </property>
+       </widget>
       </item>
       <item row="1" column="2">
        <widget class="QLabel" name="label_3">
@@ -63,7 +75,11 @@
        </widget>
       </item>
       <item row="1" column="3">
-       <widget class="QLineEdit" name="widthText"/>
+       <widget class="QLineEdit" name="widthText">
+        <property name="text">
+         <string>0.0</string>
+        </property>
+       </widget>
       </item>
       <item row="2" column="0" colspan="4">
        <widget class="QPushButton" name="calculateBtn">

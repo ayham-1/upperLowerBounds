@@ -36,6 +36,7 @@ HEADERS += \
     src/gui/trianglePerimeterWindow.h \
     src/methods/circle/circle.h \
     src/methods/equ_triangle/equ_triangle.h \
+    src/methods/triangle/triangle.h \
     src/methods/parallelogram/parallelogram.h \
     src/methods/rectangle/rectangle.h \
     src/methods/square/square.h \
@@ -60,9 +61,12 @@ SOURCES += \
     src/methods/equ_triangle/area.cpp \
     src/methods/equ_triangle/height.cpp \
     src/methods/equ_triangle/perimeter.cpp \
+    src/methods/triangle/area.cpp \
+    src/methods/triangle/perimeter.cpp \
     src/methods/parallelogram/area.cpp \
     src/methods/parallelogram/perimeter.cpp \
     src/methods/rectangle/area.cpp \
     src/methods/rectangle/perimeter.cpp \
     src/methods/square/area.cpp \
-    src/methods/square/perimeter.cpp
+    src/methods/square/perimeter.cpp \
+    src/gui/equTrianPerimeterwindow.cpp
