@@ -2,7 +2,6 @@
 #define SQUARE_H
 
 #include <iostream>
-//#include <math.h>
 #include <cmath>
 #include "defs.h"
 #include <string>
