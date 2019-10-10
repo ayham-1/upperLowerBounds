@@ -53,6 +53,16 @@ add_executable(
     tests/EquTriangleTests.cpp
 )
 
+# Triangle Test.
+add_executable(
+    triangleTest 
+    src/vendor/catch.hpp
+    src/methods/triangle/triangle.h
+    ../src/methods/triangle/area.cpp
+    ../src/methods/triangle/perimeter.cpp
+    tests/TriangleTests.cpp
+)
+
 # Parellelogram Test.
 add_executable(
     parallelTest 
