@@ -1,8 +1,8 @@
 bin/
 build/
 .qmake/
+releases/
 *.swp
 *.lib*
 *.o
 bounds.pro.user
-
