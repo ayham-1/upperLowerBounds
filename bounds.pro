@@ -1,6 +1,7 @@
 QT += widgets
 TARGET = upperlowerBounds
 CONFIG += object_parallel_to_source
+CONFIG += c++17
 INCLUDEPATH += src \
                src/methods \
                src/gui \

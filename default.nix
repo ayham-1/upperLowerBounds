@@ -5,6 +5,8 @@ with import <nixpkgs> {}; {
             stdenv
             cmake
             gcc
+            pkgs.qt5.full
+            pkgs.qtcreator
         ];
     };
 }

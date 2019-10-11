@@ -11,12 +11,30 @@ build:
      # Qt5 download.
      - apt -y install qtcreator
      - apt -y install qt5-default
+     # Qt5 Cross-compiler for windows download.
+     - apt-get install autoconf automake autopoint bash bison bzip2 flex g++ g++-multilib gettext git gperf intltool libc6-dev-i386 libgdk-pixbuf2.0-dev libltdl-dev libssl-dev libtool-bin libxml-parser-perl lzip make openssl p7zip-full patch perl pkg-config python ruby sed unzip wget xz-utils
+     - git clone https://github.com/mxe/mxe.git
+     - cd mxe && make -j9 qtbase
+
   script:
     # Build methods, and tests.
     - ./build.sh
-    # Build gui app.
-    - qmake -o Makefile bounds.pro
+    # Build Debug gui app.
+    - ./buildGui.sh
+    # Build Release gui app.
+    - ./buildGuiRelease.sh
+    # Build gui app cross-platform release for windows.
+    - mkdir build
+    - cd build
+    - ./mxe/usr/bin/i686-w64-mingw32.static-qmake-qt5 CONFIG+=release ..
     - make -j9
+    - cd ..
+    # Build gui app cross-platform debug for windows.
+    - mkdir build
+    - cd build
+    - ./mxe/usr/bin/i686-w64-mingw32.static-qmake-qt5 CONFIG+=debug ..
+    - make -j9
+    - cd ..
   artifacts:
     paths:
       - bin/
