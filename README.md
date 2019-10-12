@@ -20,18 +20,18 @@ nix-shell
 
 And you will get a shell with the appropiate requirements to build the project.
 
-#### Using ````Ubuntu```:
+#### Using ```Ubuntu```:
 
 ```s
 sudo apt install build-essential cmake gcc qt5-default
 ```
-#### Using ````arch```:
+#### Using ```arch```:
 
 ```s
 pacman -S gcc make cmake qt5-base
 ```
 
-#### Using ````gentoo```:
+#### Using ```gentoo```:
 
 ```s
 sudo emerge --ask sys-devel/gcc sys-devel/make dev-qt
