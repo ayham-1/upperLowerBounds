@@ -18,8 +18,8 @@ class EquTrianPerimeterWin : public QDialog, private Ui::equTrianPerimeter {
     public:
         explicit EquTrianPerimeterWin(QWidget* parent = nullptr);
 
-    private slots:
-        void on_calculateBtn_clicked();
+        private slots:
+            void on_calculateBtn_clicked();
 };
 
 #endif

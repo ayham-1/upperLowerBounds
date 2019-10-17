@@ -7,7 +7,7 @@ ParallelogramPerimeterWin::ParallelogramPerimeterWin(QWidget* parent)
         heightText->setValidator(new QDoubleValidator());
         baseText->setValidator(new QDoubleValidator());
         maxErrorText->setValidator(new QDoubleValidator());
-}
+    }
 
 void ParallelogramPerimeterWin::on_calculateBtn_clicked() {
     if (perimeterText->text().toStdString() == "" ||

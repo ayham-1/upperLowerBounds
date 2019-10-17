@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.5)
 project("upperlowerBounds")
- 
+
 set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/lib)
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/lib)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/bin)
@@ -40,7 +40,7 @@ add_executable(
     ../src/methods/circle/area.cpp
     ../src/methods/circle/perimeter.cpp
     tests/CircleTest.cpp
-)
+    )
 
 # Equ-Triangle Test.
 add_executable(
@@ -51,7 +51,7 @@ add_executable(
     ../src/methods/equ_triangle/perimeter.cpp
     ../src/methods/equ_triangle/height.cpp
     tests/EquTriangleTests.cpp
-)
+    )
 
 # Triangle Test.
 add_executable(
@@ -61,7 +61,7 @@ add_executable(
     ../src/methods/triangle/area.cpp
     ../src/methods/triangle/perimeter.cpp
     tests/TriangleTests.cpp
-)
+    )
 
 # Parellelogram Test.
 add_executable(
@@ -71,7 +71,7 @@ add_executable(
     ../src/methods/parallelogram/area.cpp
     ../src/methods/parallelogram/perimeter.cpp
     tests/ParallelogramTest.cpp
-)
+    )
 
 # Rectangle Test.
 add_executable(
@@ -81,7 +81,7 @@ add_executable(
     ../src/methods/rectangle/area.cpp
     ../src/methods/rectangle/perimeter.cpp
     tests/RectangleTest.cpp
-)
+    )
 
 # Square Test.
 add_executable(
@@ -91,5 +91,5 @@ add_executable(
     ../src/methods/square/area.cpp
     ../src/methods/square/perimeter.cpp
     tests/SquareTests.cpp
-)
+    )
 

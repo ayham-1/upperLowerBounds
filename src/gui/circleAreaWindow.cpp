@@ -6,7 +6,7 @@ CircleAreaWin::CircleAreaWin(QWidget* parent)
         areaText->setValidator(new QDoubleValidator());
         radiusText->setValidator(new QDoubleValidator());
         maxErrorText->setValidator(new QDoubleValidator());
-}
+    }
 
 void CircleAreaWin::on_calculateBtn_clicked() {
     if (areaText->text().toStdString() == "" ||

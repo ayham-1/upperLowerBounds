@@ -18,8 +18,8 @@ class RectangleAreaWin : public QDialog, private Ui::rectangleArea {
     public:
         explicit RectangleAreaWin(QWidget* parent = nullptr);
 
-    private slots:
-        void on_calculateBtn_clicked();
+        private slots:
+            void on_calculateBtn_clicked();
 };
 
 #endif

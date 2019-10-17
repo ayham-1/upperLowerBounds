@@ -18,8 +18,8 @@ class CircleAreaWin : public QDialog, private Ui::circleArea {
     public:
         explicit CircleAreaWin(QWidget* parent = nullptr);
 
-    private slots:
-        void on_calculateBtn_clicked();
+        private slots:
+            void on_calculateBtn_clicked();
 };
 
 #endif

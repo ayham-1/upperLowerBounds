@@ -6,7 +6,7 @@ SquarePerimeterWin::SquarePerimeterWin(QWidget* parent)
         perimeterText->setValidator(new QDoubleValidator());
         sideText->setValidator(new QDoubleValidator());
         maxErrorText->setValidator(new QDoubleValidator());
-}
+    }
 
 void SquarePerimeterWin::on_calculateBtn_clicked() {
     if (perimeterText->text().toStdString() == "" ||

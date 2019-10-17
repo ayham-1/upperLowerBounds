@@ -29,8 +29,8 @@ class MainWin : public QMainWindow, private Ui::MainWindow {
     public:
         explicit MainWin(QWidget* parent = nullptr);
 
-    private slots:
-        void on_selectBtn_clicked();
+        private slots:
+            void on_selectBtn_clicked();
 };
 
 #endif

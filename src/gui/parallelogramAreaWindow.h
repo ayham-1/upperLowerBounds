@@ -18,8 +18,8 @@ class ParallelogramAreaWin : public QDialog, private Ui::parallelogramArea {
     public:
         explicit ParallelogramAreaWin(QWidget* parent = nullptr);
 
-    private slots:
-        void on_calculateBtn_clicked();
+        private slots:
+            void on_calculateBtn_clicked();
 };
 
 #endif

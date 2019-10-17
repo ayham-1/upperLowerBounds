@@ -18,8 +18,8 @@ class EquTrianAreaWin : public QDialog, private Ui::equTrianArea {
     public:
         explicit EquTrianAreaWin(QWidget* parent = nullptr);
 
-    private slots:
-        void on_calculateBtn_clicked();
+        private slots:
+            void on_calculateBtn_clicked();
 };
 
 #endif

@@ -18,8 +18,8 @@ class TrianPerimeterWin : public QDialog, private Ui::trianglePerimeter {
     public:
         explicit TrianPerimeterWin(QWidget* parent = nullptr);
 
-    private slots:
-        void on_calculateBtn_clicked();
+        private slots:
+            void on_calculateBtn_clicked();
 };
 
 #endif

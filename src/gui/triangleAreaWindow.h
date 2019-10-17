@@ -18,8 +18,8 @@ class TrianAreaWin : public QDialog, private Ui::triangleArea {
     public:
         explicit TrianAreaWin(QWidget* parent = nullptr);
 
-    private slots:
-        void on_calculateBtn_clicked();
+        private slots:
+            void on_calculateBtn_clicked();
 };
 
 #endif

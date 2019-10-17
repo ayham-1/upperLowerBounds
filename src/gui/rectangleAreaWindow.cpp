@@ -7,7 +7,7 @@ RectangleAreaWin::RectangleAreaWin(QWidget* parent)
         lengthText->setValidator(new QDoubleValidator());
         widthText->setValidator(new QDoubleValidator());
         maxErrorText->setValidator(new QDoubleValidator());
-}
+    }
 
 void RectangleAreaWin::on_calculateBtn_clicked() {
     if (areaText->text().toStdString() == "" ||

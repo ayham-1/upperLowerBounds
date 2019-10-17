@@ -7,7 +7,7 @@ TrianAreaWin::TrianAreaWin(QWidget* parent)
         heightText->setValidator(new QDoubleValidator());
         baseText->setValidator(new QDoubleValidator());
         maxErrorText->setValidator(new QDoubleValidator());
-}
+    }
 
 void TrianAreaWin::on_calculateBtn_clicked() {
     if (areaText->text().toStdString() == "" ||

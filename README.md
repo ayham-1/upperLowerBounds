@@ -14,73 +14,73 @@ The following instructions are for compiling from sources.
 
 To install dependencies/tools/libraries, the easy way (using nix):
 
-```s
-nix-shell
-```
+    ```s
+    nix-shell
+    ```
 
-And you will get a shell with the appropiate requirements to build the project.
+    And you will get a shell with the appropiate requirements to build the project.
 
 #### Using ```Ubuntu```:
 
-```s
-sudo apt install build-essential cmake gcc qt5-default
-```
+    ```s
+    sudo apt install build-essential cmake gcc qt5-default
+    ```
 #### Using ```arch```:
 
-```s
-pacman -S gcc make cmake qt5-base
-```
+    ```s
+    pacman -S gcc make cmake qt5-base
+    ```
 
 #### Using ```gentoo```:
 
-```s
-sudo emerge --ask sys-devel/gcc sys-devel/make dev-qt
-```
+    ```s
+    sudo emerge --ask sys-devel/gcc sys-devel/make dev-qt
+    ```
 
 ### Compiling
 
-To compile test cases(Debug):
+    To compile test cases(Debug):
 
-```s
-./build.sh
-```
+        ```s
+        ./build.sh
+        ```
 
-To compile test cases(Release):
+        To compile test cases(Release):
 
-```s
-./buildRelease.sh
-```
+            ```s
+            ./buildRelease.sh
+            ```
 
-To cross-compile for windows test cases(Debug):
+            To cross-compile for windows test cases(Debug):
 
-```s
-./buildWin32.sh
-```
+                ```s
+                ./buildWin32.sh
+                ```
 
-To compile test cases(Release):
+                To compile test cases(Release):
 
-```s
-./buildWin32Release.sh
-```
+                    ```s
+                    ./buildWin32Release.sh
+                    ```
 
-To compile gui(Debug):
+                    To compile gui(Debug):
 
-```s
-./buildGui.sh
-```
+                        ```s
+                        ./buildGui.sh
+                        ```
 
-To compile gui(Release):
+                        To compile gui(Release):
 
-```s
-./buildGuiRelease.sh
-```
+                            ```s
+                            ./buildGuiRelease.sh
+                            ```
 
 ### Running the Tests
 
-```s
-./runTests.sh
-```
+                            ```s
+                            ./runTests.sh
+                            ```
 
 ## License
 
-This project is licensed under the MIT License.
+                            This project is licensed under the MIT License.

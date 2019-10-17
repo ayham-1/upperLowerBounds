@@ -18,8 +18,8 @@ class SquarePerimeterWin : public QDialog, private Ui::squarePerimter {
     public:
         explicit SquarePerimeterWin(QWidget* parent = nullptr);
 
-    private slots:
-        void on_calculateBtn_clicked();
+        private slots:
+            void on_calculateBtn_clicked();
 };
 
 #endif

@@ -7,7 +7,7 @@ CirclePerimeterWin::CirclePerimeterWin(QWidget* parent)
         radiusText->setValidator(new QDoubleValidator());
         diameterText->setValidator(new QDoubleValidator());
         maxErrorText->setValidator(new QDoubleValidator());
-}
+    }
 
 void CirclePerimeterWin::on_calculateBtn_clicked() {
     if (perimeterText->text().toStdString() == "" ||

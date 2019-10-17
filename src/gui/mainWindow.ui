@@ -1,149 +1,149 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>MainWindow</class>
- <widget class="QMainWindow" name="MainWindow">
-  <property name="geometry">
-   <rect>
-    <x>0</x>
-    <y>0</y>
-    <width>492</width>
-    <height>408</height>
-   </rect>
-  </property>
-  <property name="windowTitle">
-   <string>Upper-Lower Bounds</string>
-  </property>
-  <widget class="QWidget" name="centralwidget">
-   <widget class="QWidget" name="">
-    <property name="geometry">
-     <rect>
-      <x>90</x>
-      <y>80</y>
-      <width>300</width>
-      <height>237</height>
-     </rect>
-    </property>
-    <layout class="QVBoxLayout" name="verticalLayout">
-     <item>
-      <layout class="QGridLayout" name="gridLayout">
-       <item row="2" column="0" alignment="Qt::AlignHCenter">
-        <widget class="QLabel" name="label_2">
-         <property name="font">
-          <font>
-           <pointsize>28</pointsize>
-          </font>
-         </property>
-         <property name="text">
-          <string>Lower</string>
-         </property>
-        </widget>
-       </item>
-       <item row="4" column="0" alignment="Qt::AlignHCenter">
-        <widget class="QLabel" name="label_3">
-         <property name="font">
-          <font>
-           <pointsize>28</pointsize>
-          </font>
-         </property>
-         <property name="text">
-          <string>Bounds</string>
-         </property>
-        </widget>
-       </item>
-       <item row="1" column="0" alignment="Qt::AlignHCenter">
-        <widget class="QLabel" name="label_4">
-         <property name="font">
-          <font>
-           <pointsize>28</pointsize>
-          </font>
-         </property>
-         <property name="text">
-          <string>Upper</string>
-         </property>
-        </widget>
-       </item>
-      </layout>
-     </item>
-     <item>
-      <widget class="QComboBox" name="formulaBox">
-       <item>
-        <property name="text">
-         <string>Square Formula: Area</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>Square Formula: Perimeter</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>Rectangle Formula: Area</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>Rectangle Formula: Perimeter</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>Triangle Formula: Area</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>Triangle Formula: Perimeter</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>Equilateral Triangle Formula: Area</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>Equilateral Triangle Formula: Perimeter</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>Parallelogram Formula: Area</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>Parallelogram Formula: Perimeter</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>Circle Formula: Area</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>Circle Formula: Perimeter</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string/>
-        </property>
-       </item>
-      </widget>
-     </item>
-     <item>
-      <widget class="QPushButton" name="selectBtn">
-       <property name="text">
-        <string>Select</string>
-       </property>
-      </widget>
-     </item>
-    </layout>
-   </widget>
-  </widget>
- </widget>
- <resources/>
- <connections/>
+	<class>MainWindow</class>
+	<widget class="QMainWindow" name="MainWindow">
+		<property name="geometry">
+			<rect>
+				<x>0</x>
+				<y>0</y>
+				<width>492</width>
+				<height>408</height>
+			</rect>
+		</property>
+		<property name="windowTitle">
+			<string>Upper-Lower Bounds</string>
+		</property>
+		<widget class="QWidget" name="centralwidget">
+			<widget class="QWidget" name="">
+				<property name="geometry">
+					<rect>
+						<x>90</x>
+						<y>80</y>
+						<width>300</width>
+						<height>237</height>
+					</rect>
+				</property>
+				<layout class="QVBoxLayout" name="verticalLayout">
+					<item>
+						<layout class="QGridLayout" name="gridLayout">
+							<item row="2" column="0" alignment="Qt::AlignHCenter">
+								<widget class="QLabel" name="label_2">
+									<property name="font">
+										<font>
+											<pointsize>28</pointsize>
+										</font>
+									</property>
+									<property name="text">
+										<string>Lower</string>
+									</property>
+								</widget>
+							</item>
+							<item row="4" column="0" alignment="Qt::AlignHCenter">
+								<widget class="QLabel" name="label_3">
+									<property name="font">
+										<font>
+											<pointsize>28</pointsize>
+										</font>
+									</property>
+									<property name="text">
+										<string>Bounds</string>
+									</property>
+								</widget>
+							</item>
+							<item row="1" column="0" alignment="Qt::AlignHCenter">
+								<widget class="QLabel" name="label_4">
+									<property name="font">
+										<font>
+											<pointsize>28</pointsize>
+										</font>
+									</property>
+									<property name="text">
+										<string>Upper</string>
+									</property>
+								</widget>
+							</item>
+						</layout>
+					</item>
+					<item>
+						<widget class="QComboBox" name="formulaBox">
+							<item>
+								<property name="text">
+									<string>Square Formula: Area</string>
+								</property>
+							</item>
+							<item>
+								<property name="text">
+									<string>Square Formula: Perimeter</string>
+								</property>
+							</item>
+							<item>
+								<property name="text">
+									<string>Rectangle Formula: Area</string>
+								</property>
+							</item>
+							<item>
+								<property name="text">
+									<string>Rectangle Formula: Perimeter</string>
+								</property>
+							</item>
+							<item>
+								<property name="text">
+									<string>Triangle Formula: Area</string>
+								</property>
+							</item>
+							<item>
+								<property name="text">
+									<string>Triangle Formula: Perimeter</string>
+								</property>
+							</item>
+							<item>
+								<property name="text">
+									<string>Equilateral Triangle Formula: Area</string>
+								</property>
+							</item>
+							<item>
+								<property name="text">
+									<string>Equilateral Triangle Formula: Perimeter</string>
+								</property>
+							</item>
+							<item>
+								<property name="text">
+									<string>Parallelogram Formula: Area</string>
+								</property>
+							</item>
+							<item>
+								<property name="text">
+									<string>Parallelogram Formula: Perimeter</string>
+								</property>
+							</item>
+							<item>
+								<property name="text">
+									<string>Circle Formula: Area</string>
+								</property>
+							</item>
+							<item>
+								<property name="text">
+									<string>Circle Formula: Perimeter</string>
+								</property>
+							</item>
+							<item>
+								<property name="text">
+									<string/>
+								</property>
+							</item>
+						</widget>
+					</item>
+					<item>
+						<widget class="QPushButton" name="selectBtn">
+							<property name="text">
+								<string>Select</string>
+							</property>
+						</widget>
+					</item>
+				</layout>
+			</widget>
+		</widget>
+	</widget>
+	<resources/>
+	<connections/>
 </ui>

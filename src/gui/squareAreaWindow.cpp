@@ -6,7 +6,7 @@ SquareAreaWin::SquareAreaWin(QWidget* parent)
         areaText->setValidator(new QDoubleValidator());
         sideText->setValidator(new QDoubleValidator());
         maxErrorText->setValidator(new QDoubleValidator());
-}
+    }
 
 void SquareAreaWin::on_calculateBtn_clicked() {
     if (areaText->text().toStdString() == "" ||

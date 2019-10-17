@@ -18,8 +18,8 @@ class CirclePerimeterWin : public QDialog, private Ui::circlePerimeter {
     public:
         explicit CirclePerimeterWin(QWidget* parent = nullptr);
 
-    private slots:
-        void on_calculateBtn_clicked();
+        private slots:
+            void on_calculateBtn_clicked();
 };
 
 #endif

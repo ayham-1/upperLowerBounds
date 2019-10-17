@@ -7,7 +7,7 @@ ParallelogramAreaWin::ParallelogramAreaWin(QWidget* parent)
         heightText->setValidator(new QDoubleValidator());
         baseText->setValidator(new QDoubleValidator());
         maxErrorText->setValidator(new QDoubleValidator());
-}
+    }
 
 void ParallelogramAreaWin::on_calculateBtn_clicked() {
     if (areaText->text().toStdString() == "" ||

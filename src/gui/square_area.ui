@@ -1,87 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>squareArea</class>
- <widget class="QDialog" name="squareArea">
-  <property name="geometry">
-   <rect>
-    <x>0</x>
-    <y>0</y>
-    <width>301</width>
-    <height>260</height>
-   </rect>
-  </property>
-  <property name="windowTitle">
-   <string>Square Formula: Area</string>
-  </property>
-  <widget class="QWidget" name="layoutWidget">
-   <property name="geometry">
-    <rect>
-     <x>2</x>
-     <y>2</y>
-     <width>295</width>
-     <height>252</height>
-    </rect>
-   </property>
-   <layout class="QGridLayout" name="gridLayout_2">
-    <item row="0" column="0">
-     <layout class="QGridLayout" name="gridLayout">
-      <item row="0" column="0">
-       <widget class="QLabel" name="label">
-        <property name="text">
-         <string>Area:</string>
-        </property>
-       </widget>
-      </item>
-      <item row="0" column="1">
-       <widget class="QLineEdit" name="areaText">
-        <property name="text">
-         <string>0.0</string>
-        </property>
-       </widget>
-      </item>
-      <item row="0" column="2">
-       <widget class="QLabel" name="label_2">
-        <property name="text">
-         <string>Side:</string>
-        </property>
-       </widget>
-      </item>
-      <item row="0" column="3">
-       <widget class="QLineEdit" name="sideText">
-        <property name="text">
-         <string>0.0</string>
-        </property>
-       </widget>
-      </item>
-      <item row="1" column="0">
-       <widget class="QLabel" name="label_3">
-        <property name="text">
-         <string>ME:</string>
-        </property>
-       </widget>
-      </item>
-      <item row="1" column="1">
-       <widget class="QLineEdit" name="maxErrorText">
-        <property name="text">
-         <string>0.0</string>
-        </property>
-       </widget>
-      </item>
-      <item row="1" column="2" colspan="2">
-       <widget class="QPushButton" name="calculateBtn">
-        <property name="text">
-         <string>Calculate</string>
-        </property>
-       </widget>
-      </item>
-     </layout>
-    </item>
-    <item row="1" column="0">
-     <widget class="QPlainTextEdit" name="plainTextEdit"/>
-    </item>
-   </layout>
-  </widget>
- </widget>
- <resources/>
- <connections/>
+	<class>squareArea</class>
+	<widget class="QDialog" name="squareArea">
+		<property name="geometry">
+			<rect>
+				<x>0</x>
+				<y>0</y>
+				<width>301</width>
+				<height>260</height>
+			</rect>
+		</property>
+		<property name="windowTitle">
+			<string>Square Formula: Area</string>
+		</property>
+		<widget class="QWidget" name="layoutWidget">
+			<property name="geometry">
+				<rect>
+					<x>2</x>
+					<y>2</y>
+					<width>295</width>
+					<height>252</height>
+				</rect>
+			</property>
+			<layout class="QGridLayout" name="gridLayout_2">
+				<item row="0" column="0">
+					<layout class="QGridLayout" name="gridLayout">
+						<item row="0" column="0">
+							<widget class="QLabel" name="label">
+								<property name="text">
+									<string>Area:</string>
+								</property>
+							</widget>
+						</item>
+						<item row="0" column="1">
+							<widget class="QLineEdit" name="areaText">
+								<property name="text">
+									<string>0.0</string>
+								</property>
+							</widget>
+						</item>
+						<item row="0" column="2">
+							<widget class="QLabel" name="label_2">
+								<property name="text">
+									<string>Side:</string>
+								</property>
+							</widget>
+						</item>
+						<item row="0" column="3">
+							<widget class="QLineEdit" name="sideText">
+								<property name="text">
+									<string>0.0</string>
+								</property>
+							</widget>
+						</item>
+						<item row="1" column="0">
+							<widget class="QLabel" name="label_3">
+								<property name="text">
+									<string>ME:</string>
+								</property>
+							</widget>
+						</item>
+						<item row="1" column="1">
+							<widget class="QLineEdit" name="maxErrorText">
+								<property name="text">
+									<string>0.0</string>
+								</property>
+							</widget>
+						</item>
+						<item row="1" column="2" colspan="2">
+							<widget class="QPushButton" name="calculateBtn">
+								<property name="text">
+									<string>Calculate</string>
+								</property>
+							</widget>
+						</item>
+					</layout>
+				</item>
+				<item row="1" column="0">
+					<widget class="QPlainTextEdit" name="plainTextEdit"/>
+				</item>
+			</layout>
+		</widget>
+	</widget>
+	<resources/>
+	<connections/>
 </ui>

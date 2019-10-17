@@ -1,0 +1,23 @@
+﻿---
+BasedOnStyle: Chromium
+AlignConsecutiveAssignments: 'true'
+AlignConsecutiveDeclarations: 'true'
+AlignTrailingComments: 'true'
+AllowShortBlocksOnASingleLine: 'true'
+AllowShortCaseLabelsOnASingleLine: 'true'
+AllowShortFunctionsOnASingleLine: 'true'
+AllowShortIfStatementsOnASingleLine: 'true'
+AllowShortLoopsOnASingleLine: 'true'
+AlwaysBreakBeforeMultilineStrings: 'true'
+AlwaysBreakTemplateDeclarations: 'Yes'
+ColumnLimit: '80'
+CompactNamespaces: 'false'
+Language: Cpp
+PointerAlignment: Left
+SortIncludes: 'false'
+SortUsingDeclarations: 'false'
+Standard: Auto
+TabWidth: '4'
+UseTab: Always
+
+...

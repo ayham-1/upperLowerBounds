@@ -6,7 +6,7 @@ EquTrianPerimeterWin::EquTrianPerimeterWin(QWidget* parent)
         perimeterText->setValidator(new QDoubleValidator());
         sideText->setValidator(new QDoubleValidator());
         maxErrorText->setValidator(new QDoubleValidator());
-}
+    }
 
 void EquTrianPerimeterWin::on_calculateBtn_clicked() {
     if (perimeterText->text().toStdString() == "" ||

@@ -8,7 +8,7 @@ TrianPerimeterWin::TrianPerimeterWin(QWidget* parent)
         sideBText->setValidator(new QDoubleValidator());
         sideCText->setValidator(new QDoubleValidator());
         maxErrorText->setValidator(new QDoubleValidator());
-}
+    }
 
 void TrianPerimeterWin::on_calculateBtn_clicked() {
     if (perimeterText->text().toStdString() == "" ||

@@ -2,7 +2,7 @@
 
 auto etrian_calc_area(float me, float s, float a)->uplowBounds {
     auto answer = uplowBounds();
-    
+
     if (a == 0.0f && s != 0.0f) {
         answer.s_lower = (sqrt(3)/4)*(pow(s-me,2));
         answer.s_upper = (sqrt(3)/4)*(pow(s+me,2));

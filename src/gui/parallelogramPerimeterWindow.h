@@ -18,8 +18,8 @@ class ParallelogramPerimeterWin : public QDialog, private Ui::parallelogramPerim
     public:
         explicit ParallelogramPerimeterWin(QWidget* parent = nullptr);
 
-    private slots:
-        void on_calculateBtn_clicked();
+        private slots:
+            void on_calculateBtn_clicked();
 };
 
 #endif

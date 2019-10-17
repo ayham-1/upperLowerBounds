@@ -7,7 +7,7 @@ RectanglePerimeterWin::RectanglePerimeterWin(QWidget* parent)
         lengthText->setValidator(new QDoubleValidator());
         widthText->setValidator(new QDoubleValidator());
         maxErrorText->setValidator(new QDoubleValidator());
-}
+    }
 
 void RectanglePerimeterWin::on_calculateBtn_clicked() {
     if (perimeterText->text().toStdString() == "" ||
